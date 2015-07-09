@@ -1,5 +1,5 @@
 <?php
-$my_email = "registration@iccste.com";
+$my_email = "registration@cistseries.com";
 $errors = array();
 
 // Remove $_COOKIE elements from $_REQUEST.
@@ -95,7 +95,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
 ---
 layout: default
-title: ICCSTE'16 - Registration Form Filled!
+title: CIST'16 - Registration Form Filled!
 ---
 
 <div class="unit unit-s-1 unit-m-1-4-1 unit-l-1-4-1">
@@ -106,8 +106,8 @@ title: ICCSTE'16 - Registration Form Filled!
 
  	<p class="body">If you have requested any official invitation letters, please allow up to 5 business days to receive your documents.</p> 
 
-  	<p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@iccste.com" class="body-link">registration@iccste.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
+  	<p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@cistseries.com" class="body-link">registration@cistseries.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
 
-	<p class="body">We are looking forward to seeing you at the CDSR'16!</p>
+	<p class="body">We are looking forward to seeing you at the CIST'16!</p>
   </div>
 </div>
