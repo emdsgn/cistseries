@@ -41,7 +41,7 @@ $message = build_message($_REQUEST);
 
 $message = 'Dear Colleague,
 
-Thank you for registering for CIST 2016. If you have requested any official letters, please allow up to 5 business days to receive your documents.
+Thank you for registering for CIST 2018. If you have requested any official letters, please allow up to 5 business days to receive your documents.
 
 If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@cistseries.com. You can find the copyright form here: www.cistseries.com/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
 
@@ -59,15 +59,15 @@ $message = $message . PHP_EOL.PHP_EOL."-- ".PHP_EOL."";
 
 $message = stripslashes($message);
 
-$subject = "Registration Details for " . $_REQUEST['Email'];
+$subject = "Registration Details for " . $_REQUEST['email'];
 
-$headers = "From: " . $_REQUEST['Email'];
+$headers = "From: " . $_REQUEST['email'];
 
-$your_email = $_REQUEST['Email'];
+$your_email = $_REQUEST['email'];
 
-$your_subject = "Your Registration Details for CIST'16";
+$your_subject = "Your Registration Details for CIST'18";
 
-$your_headers = "From: CIST'16 <" . $my_email . ">";
+$your_headers = "From: CIST'18 <" . $my_email . ">";
 
 if ((($_FILES["file"]["type"] == "image/gif")
 
@@ -112,19 +112,19 @@ mail($your_email,$your_subject,$message,$your_headers);
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
-<meta name="keywords" content="">
-<title>CIST'16 - Registration Form Filled!</title>
+<meta name="keywords" content="computer, information science, information technology, intelligent systems, big data, deep learning, pervasive computing, circuit design, computer hardware, data mining, image processing, human computer interaction, software engineering, operating systems, machine learning, internet technology, computer conference, information science conference, information technology conference, intelligent systems conference, big data conference, deep learning conference, pervasive computing conference, circuit design conference, computer hardware conference, data mining conference, image processing conference, human computer interaction conference, software engineering conference, operating systems conference, machine learning conference, internet technology conference">
+<title>CIST'18 - Registration Form Filled!</title>
 
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="../css/ffhmt.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 <!--[if IE-9]><html lang="en" class="ie9"><![endif]-->
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="../js/modernizr.custom.63321.js"></script>
 <script>
   (function() {
@@ -142,7 +142,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
 <body>
 <nav id="slide-menu">
-  <h1>CIST'16</h1>
+  <h1>CIST'18</h1>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="../papers">Paper Submissions</a></li>
@@ -184,8 +184,8 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
         <div class="bg">
-          <h1>2<sup>nd</sup> International Conference on Computer, <br>and Information Science and Technology (CIST'16)</h1>
-          <p class="subhead">May 11 - 12, 2016 | Ottawa, ON</p>
+          <h1>3<sup>rd</sup> International Conference on Computer and Information Science and Technology (CIST'18)</h1>
+          <p class="subhead">August 21 - 23, 2018 | Madrid, Spain</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -199,6 +199,7 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
 </div>
+<br><p class="body" style="text-align:center!important;">CIST'18 is part of the <b>4<sup>th</sup> World Congress on Electrical Engineering and Computer Systems and Science (EECSS'18)</b>. For more information about the congress, please visit the website here: <a href="http://2018.eecss.org/" class="body-link">www.2018.eecss.org</a>.</p>
         </div>
     </div>
 
@@ -210,8 +211,8 @@ mail($your_email,$your_subject,$message,$your_headers);
         </div>
 
         <div class="bg">
-          <h1>2<sup>nd</sup> International Conference on Computer, <br>and Information Science and Technology (CIST'16)</h1>
-          <p class="subhead">May 11 - 12, 2016 | Ottawa, ON</p>
+          <h1>3<sup>rd</sup> International Conference on Computer and Information Science and Technology (CIST'18)</h1>
+          <p class="subhead">August 21 - 23, 2018 | Madrid, Spain</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -225,6 +226,7 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
 </div>
+<br><p class="body" style="text-align:center!important; color: #FFF!important;">CIST'18 is part of the <b>4<sup>th</sup> World Congress on Electrical Engineering and Computer Systems and Science (EECSS'18)</b>.<br>For more information about the congress, please visit the website here: <a href="http://2018.eecss.org/" class="body-link">www.2018.eecss.org</a>.</p>
         </div>
         </div> 
       </div>
@@ -238,28 +240,38 @@ mail($your_email,$your_subject,$message,$your_headers);
       <div id="main-slider" class="liquid-slider">
     <div>
       <h2 class="title">1</h2>
-      <p class="bold">CIST 2016:</p>
-      <p class="body">CIST 2016 will  be held in Ottawa, Canada on May 11 - 12, 2016.</p>
+      <p class="bold">CIST 2018:</p>
+      <p class="body">CIST 2018 will  be held in Madrid, Spain on August 21 - 23, 2018.</p>
 
-      <p class="bold">CIST'16 Symposiums:</p>
-      <p class="body">The Organizing Committee has selected the following fields for specialized and focused symposiums under the umbrella of CIST'16:</p>
+      <!-- <p class="bold">EECSS'18 Workshop</p>
+      <p class="body">As per popular request, the organizing committee has decided to extend the EECSS'18 congress to three days (now August 21 - 23, 2018). The new high-level schedule is as follows:</p>
 
       <ul>
-      <li>Intelligent Systems</li>
-      <li>Pervasive Computing</li>
-      <li>Big Data</li>
-      <li>Deep Learning</li>
+        <li>Day 1: Workshop(s) and Registration</li>
+        <li>Day 2: Main Track Conference Sessions</li>
+        <li>Day 3: Main Track Conference Sessions and Gala dinner or Cruise tour</li>
       </ul>
+      
+      <p class="body">Registration for the workshop will be 121 EURs (VAT included) and separate from the main conferences. Workshop attendees will receive a certificate of participation. For registration, please visit: <a href="../registration" class="body-link">here</a>.</p>
 
-      <p class="body">If you are interested of your article to be part of the above-mentioned symposiums, please inform us when submitting your article. Please visit <a href="../symposium" class="body-link">Symposiums</a> for more information.</p>
+      <p class="body">More information to follow; we greatly appreciate your patience!</p> -->
+<!-- 
+      <p class="bold">Poster Board Dimensions:</p>
+      <p class="body">Authors presenting via poster boards are to be informed that poster boards are 110 cm height and 80 cm width.</p> -->
     </div>          
     <div>
       <h2 class="title">2</h2>
       <p class="bold">Best Paper Award:</p>
       <p class="body">Two best paper awards will be conferred to author(s) of the papers that receive the highest rank during the peer-review and by the respected session chairs. Please visit <a href="../papers" class="body-link">Paper Submission</a> for more information.</p>
     </div>
+    <div>
+      <h2 class="title">3</h2>
+      <p class="bold">Become a Sponsor or an Exhibitor</p>
+      <p class="body">CIST attracts a wide range of researchers in the field of biomedical engineering and systems. As a prominent company in the field of biomedical engineering and systems, we would like to offer you an exhibit at CIST. Please visit <a href="../sponsor" class="body-link">Sponsors</a> for more information.</p>
+    </div>
 
   </div>
+
     </div>
   </div>
 
@@ -273,39 +285,36 @@ mail($your_email,$your_subject,$message,$your_headers);
 
     <p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@cistseries.com" class="body-link">registration@cistseries.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
 
-  <p class="body">We are looking forward to seeing you at CIST'16!</p>
+  <p class="body">We are looking forward to seeing you at CIST'18!</p>
   </div>
 </div>
 
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
   <div class="unit-spacer">
+
     <section class="main">
-        <div class="custom-calendar-wrap">
-          <div id="custom-inner" class="custom-inner">
-            <div class="custom-header clearfix">
-              <nav>
-                <span id="custom-prev" class="custom-prev"></span>
-                <span id="custom-next" class="custom-next"></span>
-              </nav>
-              <h2 id="custom-month" class="custom-month"></h2>
-              <h3 id="custom-year" class="custom-year"></h3>
-            </div>
-            <div id="calendar" class="fc-calendar-container"></div>
-          </div>
-        </div>
-      </section>
+      <ul class="side-bar-menu" style="padding:0px;">
+        <li><a href="../sponsor">Sponsors &amp; Exhibitors</a></li>
+        <li><a href="../symposium">Symposium &amp; Workshop</a></li>
+      </ul>
+    </section>
+
+    <br><br>
+
     <h2>Upcoming Dates</h2>
 
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    Jan. 1, 2016
+     <!-- <div class="past">Dec. 1, 2016</div> -->
+     TBA
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-    Paper Submission Deadline
+     <!-- <div class="past past-text">Paper Submission Deadline</div> -->
+     Paper Submission Deadline
   </div>
 </div>
 </div>
@@ -313,13 +322,15 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    Feb. 10, 2016
+    <!-- <div class="past">Feb. 15, 2018</div> -->
+    TBA
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-    Notification of Authors
+    <!-- <div class="past past-text">Notification of Authors</div> --> 
+      Notification of Authors
   </div>
 </div>
 </div>
@@ -327,16 +338,19 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    Feb. 20, 2016
+    <!-- <div class="past">Mar. 1, 2018</div> -->
+    TBA
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-    Camera Ready Submission Deadline
+     <!-- <div class="past past-text">Final Version of Accepted Submissions Deadline</div>  -->
+     Final Version of Accepted Submissions Deadline
   </div>
 </div>
 </div>
+
   </div>
   </div>
 </div>
@@ -347,73 +361,41 @@ mail($your_email,$your_subject,$message,$your_headers);
   <div class="unit-spacer">
     <h2>Contact Us</h2>
     <p class="body">International ASET Inc.<br>
-    Unit No. 417, 1376 Bank St.<br>
-    Ottawa, Ontario, Canada<br>
-    Postal Code: K1H 7Y3<br>
-    +1-613-695-3040<br>
+    Unit No. 104, 2442 St. Joseph Blvd.<br>
+    Orl&eacute;ans, Ontario, Canada<br>
+    Postal Code: K1C 1G1<br>
+    +1-613-834-9999<br>
     <a href="mailto:info@cistseries.com">info@cistseries.com</a></p>
     </div>
   </div>
 
   <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
   <div class="unit-spacer">
-  <p class="body">For questions or comments regarding CIST'16, please fill out the form below:</p>
+  <p class="body">For questions or comments regarding CIST'18, please fill out the form below:</p>
 
-    <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm">
-  
-  <table border="0" class="contact">
-    <tbody>
-      <tr>
-        <td class="label">Name:</td>
-        <td class="text"><span id="sprytextfield1">
-              <input name="Name" type="text" id="Name" size="40" autocomplete="off">
+    <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm" class="cf">
+  <div class="half left cf">
+    <input style="margin-bottom:0.85em" type="text" name="Name" id="Name" placeholder="Name" required>
+    <input style="margin-bottom:0.85em" type="email" name="Email" id="Email" placeholder="Email address" required>
+    <input type="text" name="Subject" id="Subject" placeholder="Subject" required>
+  </div>
+  <div class="half right cf">
+    <textarea name="Message" type="text" rows="5" name="Message" id="Message" placeholder="Message" required></textarea>
+  </div><br><br>
+  <center class="full right cf"><div class="g-recaptcha" data-sitekey="6LdiTv8SAAAAAPRsFCxFJWnp7qUbQ4m-yO-Bs8Rn"></div></center>
+  <div class="cf">
+  <center><div class="full right cf"><input type="submit" name="Submit" value="Submit">
+    <input type="reset" name="Reset" value="Reset"></center></div>
+</div></div></form>
 
-              <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-        </tr>
-
-        <tr>
-            <td class="label">Email:</td>
-            <td class="text"><span id="sprytextfield2">
-            <input name="Email" type="text" id="Email" size="40" autocomplete="off">
-            <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
-          </tr>
-
-          <tr>
-            <td class="label">Confirm Email:</td>
-             <td class="text"><span id="spryconfirm4">
-              <input name="Confirm Email" type="text" id="Confirm Email" size="40" autocomplete="off">
-              <span class="confirmRequiredMsg">A value is required.</span><span class="confirmInvalidMsg">Emails don't match.</span></span></td>
-          </tr>
-
-          <tr>
-            <td class="label">Subject:</td>
-            <td class="text"><span id="sprytextfield3">
-              <input name="Subject" type="text" id="Subject" size="40" autocomplete="off">
-              <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-          </tr>
-
-          <tr>
-            <td valign="top" class="label">Message:</td>
-            <td class="text"><span id="sprytextarea1">
-              <textarea name="Message" id="Message" cols="31" rows="10" autocomplete="off"></textarea>
-              <span class="textareaRequiredMsg">A value is required.</span></span>
-              <center>
-        <input type="submit" name="Submit" value="Submit" accept="image/jpeg">
-        <input type="reset" name="Reset" value="Reset"></center></td>
-          </tr>
-
-        </tbody></table><br>
-
-        
-</form>
     </div>
   </div>
   </div>
 </footer> 
 
 <div class="copyright">
-  <a href="international-aset.com">International ASET Inc.</a> | <a href="http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
-  <p class="body">&copy; Copyright International ASET Inc., 2015. All rights reserved.</p>
+  <a href="http://international-aset.com">International ASET Inc.</a> | <a href="http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
+  <p class="body">© Copyright <script>document.write(new Date().getFullYear())</script>, International ASET Inc. – All Rights Reserved.</p>
   <p class="copyright1">Have any feedback? Please provide them here: <script>var refURL = window.location.protocol + "//" + window.location.host + window.location.pathname; document.write('<a href="http://international-aset.com/feedback/?refURL=' + refURL+'" class="body-link">Feedback</a>');</script></p>
 </div>
 </div>

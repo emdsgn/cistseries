@@ -44,7 +44,7 @@
  
  /* When the widget is in the valid state the INPUT has a green background applied on it. */
 .textfieldValidState input, input.textfieldValidState {
-	background-color: #A2B0B9;
+	background-color: #C3302A;
 	  border: 0;
 }
 
@@ -55,7 +55,7 @@ input.textfieldMinValueState, .textfieldMinValueState input,
 input.textfieldMaxValueState, .textfieldMaxValueState input, 
 input.textfieldMinCharsState, .textfieldMinCharsState input, 
 input.textfieldMaxCharsState, .textfieldMaxCharsState input {
-	background-color: #A2B0B9;
+	background-color: #C3302A;
 	  border: 0;
 }
 
