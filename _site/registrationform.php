@@ -184,7 +184,7 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
         <div class="bg">
-          <h1>3<sup>rd</sup> International Conference on Computer and Information Science and Technology (CIST'18)</h1>
+          <h1>3<sup>rd</sup> International Conference on <br>Computer and Information Science and Technology (CIST'18)</h1>
           <p class="subhead">August 21 - 23, 2018 | Madrid, Spain</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
@@ -211,7 +211,7 @@ mail($your_email,$your_subject,$message,$your_headers);
         </div>
 
         <div class="bg">
-          <h1>3<sup>rd</sup> International Conference on Computer and Information Science and Technology (CIST'18)</h1>
+          <h1>3<sup>rd</sup> International Conference on <br>Computer and Information Science and Technology (CIST'18)</h1>
           <p class="subhead">August 21 - 23, 2018 | Madrid, Spain</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
