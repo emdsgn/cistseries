@@ -65,9 +65,9 @@ $headers = "From: " . $_REQUEST['email'];
 
 $your_email = $_REQUEST['email'];
 
-$your_subject = "Your Registration Details for CIST'18";
+$your_subject = "Your Registration Details for CIST'19";
 
-$your_headers = "From: CIST'18 <" . $my_email . ">";
+$your_headers = "From: CIST'19 <" . $my_email . ">";
 
 if ((($_FILES["file"]["type"] == "image/gif")
 
@@ -113,7 +113,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
 <meta name="keywords" content="computer, information science, information technology, intelligent systems, big data, deep learning, pervasive computing, circuit design, computer hardware, data mining, image processing, human computer interaction, software engineering, operating systems, machine learning, internet technology, computer conference, information science conference, information technology conference, intelligent systems conference, big data conference, deep learning conference, pervasive computing conference, circuit design conference, computer hardware conference, data mining conference, image processing conference, human computer interaction conference, software engineering conference, operating systems conference, machine learning conference, internet technology conference">
-<title>CIST'18 - Registration Form Filled!</title>
+<title>CIST'19 - Registration Form Filled!</title>
 
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -143,7 +143,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
 <body>
 <nav id="slide-menu">
-  <h1>CIST'18</h1>
+  <h1>CIST'19</h1>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="../papers">Submissions</a></li>
@@ -184,8 +184,8 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
         <div class="bg">
-          <h1>3<sup>rd</sup> International Conference on <br>Computer and Information Science and Technology (CIST'18)</h1>
-          <p class="subhead">August 21 - 23, 2018 | Madrid, Spain</p>
+          <h1>4<sup>th</sup> International Conference on <br>Computer and Information Science and Technology (CIST'19)</h1>
+          <p class="subhead">August, 2019 | Prague, Czech Republic</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -212,8 +212,8 @@ mail($your_email,$your_subject,$message,$your_headers);
         </div>
 
         <div class="bg">
-          <h1>3<sup>rd</sup> International Conference on <br>Computer and Information Science and Technology (CIST'18)</h1>
-          <p class="subhead">August 21 - 23, 2018 | Madrid, Spain</p>
+          <h1>4<sup>th</sup> International Conference on <br>Computer and Information Science and Technology (CIST'19)</h1>
+          <p class="subhead">August, 2019 | Prague, Czech Republic</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -252,7 +252,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
     <p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@cistseries.com" class="body-link">registration@cistseries.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
 
-  <p class="body">We are looking forward to seeing you at CIST'18!</p>
+  <p class="body">We are looking forward to seeing you at CIST'19!</p>
   </div>
 </div>
 
@@ -279,7 +279,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
   <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
   <div class="unit-spacer">
-  <p class="body">For questions or comments regarding CIST'18, please fill out the form below:</p>
+  <p class="body">For questions or comments regarding CIST'19, please fill out the form below:</p>
 
     <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm" class="cf">
   <div class="half left cf">

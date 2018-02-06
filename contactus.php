@@ -33,7 +33,7 @@ mail($my_email,$subject,$message,$headers);
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
 <meta name="keywords" content="computer, information science, information technology, intelligent systems, big data, deep learning, pervasive computing, circuit design, computer hardware, data mining, image processing, human computer interaction, software engineering, operating systems, machine learning, internet technology, computer conference, information science conference, information technology conference, intelligent systems conference, big data conference, deep learning conference, pervasive computing conference, circuit design conference, computer hardware conference, data mining conference, image processing conference, human computer interaction conference, software engineering conference, operating systems conference, machine learning conference, internet technology conference">
-<title>CIST'18 - Contact Us</title>
+<title>CIST'19 - Contact Us</title>
 
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -63,7 +63,7 @@ mail($my_email,$subject,$message,$headers);
 
 <body>
 <nav id="slide-menu">
-  <h1>CIST'18</h1>
+  <h1>CIST'19</h1>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="../papers">Submissions</a></li>
@@ -104,8 +104,8 @@ mail($my_email,$subject,$message,$headers);
   </div>
 </div>
         <div class="bg">
-          <h1>3<sup>rd</sup> International Conference on <br>Computer and Information Science and Technology (CIST'18)</h1>
-          <p class="subhead">August 21 - 23, 2018 | Madrid, Spain</p>
+          <h1>4<sup>th</sup> International Conference on <br>Computer and Information Science and Technology (CIST'19)</h1>
+          <p class="subhead">August, 2019 | Prague, Czech Republic</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -132,8 +132,8 @@ mail($my_email,$subject,$message,$headers);
         </div>
 
         <div class="bg">
-          <h1>3<sup>rd</sup> International Conference on <br>Computer and Information Science and Technology (CIST'18)</h1>
-          <p class="subhead">August 21 - 23, 2018 | Madrid, Spain</p>
+          <h1>4<sup>th</sup> International Conference on <br>Computer and Information Science and Technology (CIST'19)</h1>
+          <p class="subhead">August, 2019 | Prague, Czech Republic</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -165,7 +165,7 @@ mail($my_email,$subject,$message,$headers);
 <div class="unit unit-s-1 unit-m-1-4-1 unit-l-1-4-1">
   <div class="unit-spacer content">
     <p class="body">We have received your message and we will try our best to get back to you within the next 48 hours.<br><br>
-    Thank you for your interest in CIST'18.</p>
+    Thank you for your interest in CIST'19.</p>
   </div>
 </div>
 
@@ -192,7 +192,7 @@ mail($my_email,$subject,$message,$headers);
 
   <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
   <div class="unit-spacer">
-  <p class="body">For questions or comments regarding CIST'18, please fill out the form below:</p>
+  <p class="body">For questions or comments regarding CIST'19, please fill out the form below:</p>
 
     <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm" class="cf">
   <div class="half left cf">
